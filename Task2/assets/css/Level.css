@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../img/stardewbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.version {
+    padding: 10px;
+    font-size: 20px;
+    color: #ff6633;
+    font-weight: 700;
+}
+
+.head-name {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.head-name h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #E0A100;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.level-h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #ff6633;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copy{
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+.back{
+    color: #ff6633;
+    font-size: 20px;
+    transition: all .3s;
+}
+.back:hover{
+    color: white;
+    transform: scale(1.5);
+}
+.guess{
+    color: #ff6633;
+    font-weight: 700;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.sbmt-btn{
+    background-color: #ff6633;
+    transition: all .4s;
+}
+.sbmt-btn:hover{
+    background-color: #E0A100;
+
+}

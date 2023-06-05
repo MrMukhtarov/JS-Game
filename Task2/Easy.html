@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number | Easy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/Level.css">
+    <link rel="shortcut icon" href="assets/img/cropped-chickenfavicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <span class="version">V 1.0.0</span>
+    <br>
+    <a href="/Task2/index.html"><i class="fa-solid fa-arrow-left-long ms-3 back"></i></a>
+
+    <div class="head-name">
+        <h1>Guess Number</h1>
+    </div>
+
+    <h1 class="level-h1">Welcome Guess Number Game Easy Mode</h1>
+
+    <div class="d-flex flex-column w-50 m-auto gap-4">
+        <span class="guess">0 - 10 arasi Texmininizi yazin</span>
+        <input id="inp" class="w-25 m-auto form-control" type="number">
+        <button onclick="Guess()" class="m-auto btn btn-success sbmt-btn" style="width: 15%;">Submit</button>
+        <span class="text-center" style="color: black; font-weight: bold;">Qalan haqqiniz: <span id="count"></span></span>
+        <span class="text-center" style="color: black; font-weight: bold;" id="near"></span>
+        <span class="text-center" style="color: black; font-size: 25px; font-weight: bold;" id="correct"></span>
+    </div>
+
+    <div class="copy">
+        <span>Guess Number Copyright © 2023 Muxtarov LLC</span>
+    </div>
+
+<script src="js/Easy.js"></script>
+</body>
+
+</html>
